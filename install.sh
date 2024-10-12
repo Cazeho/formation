@@ -8,3 +8,7 @@ git clone https://github.com/learnhouse/learnhouse
 cd learnhouse
 docker-compose up -d
 # https://docs.learnhouse.app/self-hosting/hosting-guide
+
+# CTFD
+
+# Apache guacamole (access to remote labs)
