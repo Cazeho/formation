@@ -11,4 +11,20 @@ docker-compose up -d
 
 # CTFD
 
+
 # Apache guacamole (access to remote labs)
+
+
+version: "3"
+services:
+   guacamole:
+      image: abesnier/guacamole
+      container_name: guacamole
+      volumes:
+        - postgres:/config
+      ports:
+        - 8443:8080
+
+volumes:
+  postgres:
+     driver: local
