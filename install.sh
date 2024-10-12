@@ -8,6 +8,7 @@ git clone https://github.com/learnhouse/learnhouse
 cd learnhouse
 docker-compose up -d
 # https://docs.learnhouse.app/self-hosting/hosting-guide
+# user/password in logs docker-compose logs -f
 
 # CTFD
 
