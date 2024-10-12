@@ -12,6 +12,11 @@ docker-compose up -d
 
 # CTFD
 
+cd /opt
+git clone https://github.com/CTFd/CTFd.git
+cd CTFd
+# https://docs.ctfd.io/docs/deployment/installation/
+docker-compose up -d
 
 # Apache guacamole (access to remote labs)
 
